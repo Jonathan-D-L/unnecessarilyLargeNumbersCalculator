@@ -4,8 +4,10 @@ public class CalculatorApp
 {
     public void AddLargerPositiveNumbers()
     {
+        //no error handling, enter ur ridiculous numbers here to add them!
         var largeNum1 = "33333";
-             var largeNum2 = "9999999999";
+        var largeNum2 = "9999999999";
+
         var charArray1 = largeNum1.ToArray();
         var charArray2 = largeNum2.ToArray();
         var result = new List<int>();
